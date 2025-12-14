@@ -1,4 +1,4 @@
 SERVER/node_modules/
 SERVER/.env
-mini-mission/node_modules/
-mini-mission/.env
+CLIENT/node_modules/
+CLIENT/.env
