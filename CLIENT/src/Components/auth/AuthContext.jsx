@@ -101,7 +101,7 @@ export function AuthProvider({ children }) {
   };
 
   // ==================================================
-  // SEND AUTHORIZED REQUESTS
+  // SEND AUTHORIZED REQUEst
   // ==================================================
 
   const authFetch = async (path, options = {}) => {
@@ -141,3 +141,4 @@ export function useAuth() {
   if (!ctx) throw new Error("useAuth must be used inside AuthProvider");
   return ctx;
 }
+
