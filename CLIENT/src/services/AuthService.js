@@ -5,7 +5,8 @@ export async function login(email, password) {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ email, password }),
-    credentials: "include", // important for cookies
+    credentials: "include", 
   });
   return res.json();
 }
+
