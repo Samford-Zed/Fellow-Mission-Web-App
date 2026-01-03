@@ -6,7 +6,7 @@ import bcrypt from "bcrypt";
 import GroupModel from "../Models/Groups.js";
 
 /* -------------------------------------
-     SIGNUP
+     SIGNUP/register
 ---------------------------------------- */
 export const SignUp = async (req, res) => {
   // Accept both "name" and "fullName"
