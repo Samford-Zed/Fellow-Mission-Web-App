@@ -12,7 +12,7 @@ export function AuthProvider({ children }) {
 
   // ============================
   // LOAD SAVED SESSION ON START
-  // ============================
+  // =========================
   useEffect(() => {
     const saved = localStorage.getItem("miniMissionAuth");
 
@@ -141,6 +141,7 @@ export function useAuth() {
   if (!ctx) throw new Error("useAuth must be used inside AuthProvider");
   return ctx;
 }
+
 
 
 
