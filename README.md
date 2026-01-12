@@ -54,7 +54,7 @@ npm run dev
 </pre>
 <p>Runs on <code>http://localhost:5173</code></p>
 
-<h2>🦶 Layout & Design</h2>
+<h2> Layout & Design</h2>
 <p>
 The app uses a shared layout across pages, including a professional
 footer and consistent UI styling for better user experience.
@@ -68,5 +68,5 @@ Built with care for mission coordination and community support.
 </p>
 
 <p style="text-align:center; font-size:13px; color:#999;">
-Author: Samuel Zenebe()
+Author: Samuel Zenebe
 </p>
