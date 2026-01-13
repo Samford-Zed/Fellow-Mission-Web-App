@@ -90,9 +90,9 @@ export function AuthProvider({ children }) {
     }
   };
 
-  // ==================================================
-  // LOGOUT
-  // ==================================================
+  // =========
+  // LOGOUT/SIGNOUT
+  // ==========
   const logout = () => {
     localStorage.removeItem("miniMissionAuth");
     setUser(null);
@@ -141,6 +141,7 @@ export function useAuth() {
   if (!ctx) throw new Error("useAuth must be used inside AuthProvider");
   return ctx;
 }
+
 
 
 
